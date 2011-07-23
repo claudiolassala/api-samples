@@ -1,3 +1,3 @@
 object @report_submission => :report
 
-attribute :status
+attributes :status, :login, :results

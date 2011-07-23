@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ad41f7-9e2e-44c3-aeac-efd2447464d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api/v1/reports/create.rabl" afterPath="$PROJECT_DIR$/app/views/api/v1/reports/create.rabl" />
     </list>
     <ignored path="api-samples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posting_reports_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posting_reports_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.29027778">
+            <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reports_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reports_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="0" selection-end="281" vertical-scroll-proportion="0.0">
+            <state line="10" column="95" selection-start="374" selection-end="374" vertical-scroll-proportion="0.25920874">
               <folding />
             </state>
           </provider>
@@ -76,7 +75,7 @@
       <file leaf-file-name="create.rabl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/api/v1/reports/create.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="2" column="36" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +84,7 @@
       <file leaf-file-name="report_submission.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/report_submission.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+            <state line="7" column="27" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,9 +110,10 @@
         <option value="$PROJECT_DIR$/app/views/api/reports/create.rabl" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/posting_reports.feature" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
+        <option value="$PROJECT_DIR$/app/views/api/v1/reports/create.rabl" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
       </list>
     </option>
   </component>
@@ -429,6 +429,13 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -681,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api/v1/reports/create.rabl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="54" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
@@ -695,23 +695,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/report_submission.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/posting_reports.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="51" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="0" selection-end="281" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -725,7 +711,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.29027778">
+        <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/report_submission.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/api/v1/reports/create.rabl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="95" selection-start="374" selection-end="374" vertical-scroll-proportion="0.25920874">
           <folding />
         </state>
       </provider>
