@@ -29,13 +29,12 @@ Capybara.default_selector = :css
 #
 ActionController::Base.allow_rescue = false
 
-# Remove/comment out the lines below if your app doesn't have a database.
-# For some databases (like MongoDB and CouchDB) you may need to use :truncation instead.
-begin
-  DatabaseCleaner.strategy = :transaction
-rescue NameError
-  raise "You need to add database_cleaner to your Gemfile (in the :test group) if you wish to use it."
+Before do
+  # Explicitly drop all non-system Mongoid collections, since database_cleaner
+  # doesn't appear to handle them correctly
+  Mongoid.master.collections.select{|c| !c.name.starts_with?("system")}.each(&:drop)
 end
+
 
 # You may also want to configure DatabaseCleaner to use different strategies for certain features and scenarios.
 # See the DatabaseCleaner documentation for details. Example:
