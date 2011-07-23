@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ad41f7-9e2e-44c3-aeac-efd2447464d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/report_submission.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/reports/create.rabl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/posting_reports.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
     </list>
     <ignored path="api-samples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posting_reports_steps.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="posting_reports_steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.29027778">
               <folding />
             </state>
           </provider>
@@ -63,16 +58,16 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+            <state line="2" column="16" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reports_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reports_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="49" selection-start="276" selection-end="276" vertical-scroll-proportion="0.20736699">
+            <state line="7" column="0" selection-start="0" selection-end="281" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,14 +106,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/reports_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/report_submission.rb" />
         <option value="$PROJECT_DIR$/app/views/api/reports/create.rabl" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/posting_reports.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb" />
       </list>
     </option>
   </component>
@@ -707,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/posting_reports.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="51" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
@@ -721,16 +709,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="0" selection-end="281" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/reports_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="276" selection-end="276" vertical-scroll-proportion="0.20736699">
+        <state line="2" column="16" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/posting_reports_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="85" selection-start="407" selection-end="407" vertical-scroll-proportion="0.29027778">
           <folding />
         </state>
       </provider>

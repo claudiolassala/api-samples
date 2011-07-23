@@ -4,6 +4,9 @@ end
 
 When /^I send a POST request containing the file$/ do
   @login = "some-login"
+  #TODO: CL on 7/22/11 - reportxml should be the xml file that I need do post
+  # as multipart/form-data... how do I do that?
+  # how do I that from the client side, and what do I need to do from the server (api) side?
   post "api/v1/report.xml?login=#{@login}&reportxml=xxx"
 end
 
