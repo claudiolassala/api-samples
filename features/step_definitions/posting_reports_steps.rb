@@ -22,5 +22,5 @@ Then /^the report data should be saved$/ do
 end
 
 Then /^the message returned should indicate success$/ do
-  #last_response.body.should == "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<report status=\"SUCCESS\" />\n"
+  last_response.body.should == "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<report status=\"SUCCESS\" />"
 end
